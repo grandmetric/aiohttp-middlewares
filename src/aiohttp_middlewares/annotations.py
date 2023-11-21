@@ -19,7 +19,7 @@ from typing import (
 )
 
 from aiohttp import web
-from aiohttp.web_middlewares import _Middleware as Middleware
+from aiohttp.web_middlewares as Middleware
 from yarl import URL
 
 
